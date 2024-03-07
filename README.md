@@ -15,7 +15,8 @@ You need to install the following packages in MSYS2: <br>
 3. `pacman -S mingw-w64-ucrt-x86_64-cmake` (CMake, ninja)
 4. `pacman -S mingw-w64-ucrt-x86_64-gtkmm-4.0` (gtkmm-4.0, GTK-4 and etc.)
 5. `pacman -S mingw-w64-ucrt-x86_64-ntldd` (ntldd)
-6. Add `C:\msys64\ucrt64\bin` to `%PATH%` 
+
+Add `C:\msys64\ucrt64\bin` to `%PATH%` 
 ## Visual Studio Code ##
 Visual Studio Code [link](https://code.visualstudio.com/) <br>
 Install the related plugins:
