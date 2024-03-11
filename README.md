@@ -1,4 +1,4 @@
-# A simple gtkmm-4 project configured to run using MSYS2 and Visual Studio Code tools
+# A simple gtkmm 4.0 project with the ability to distribute without MSYS2
 ## Links ##
 1. main.cpp taken from [link](https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/chapter-basics.html#sec-basics-simple-example)
 2. The base template of CMakeLists.txt taken from [link](https://stackoverflow.com/a/68784465/22786079)
