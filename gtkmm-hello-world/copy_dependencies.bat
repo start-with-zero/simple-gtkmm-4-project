@@ -4,12 +4,12 @@ SET PROJECT_NAME=%2
 SET MSYS2_ENV_FOLDER=%3
 IF NOT [%MSYS2_ENV_FOLDER%]==[] (
 	
-	ECHO Copying depended DLL's...
+	ECHO Copying dependencies: DLL's...
 	
 	FOR /f "tokens=1" %%A in ('ntldd -R "%~dp0%CONFIG%\bin\%PROJECT_NAME%.exe" ^| FIND "msys64"') DO (
 		COPY /Y "%MSYS2_ENV_FOLDER%\bin\%%A" "%~dp0%CONFIG%\bin")
 	
-	ECHO Copying depended EXE's...
+	ECHO Copying dependencies: EXE's...
 
 	COPY /Y "%MSYS2_ENV_FOLDER%\bin\gdbus.exe" "%~dp0%CONFIG%\bin"
 	REM Other .exe's which are required by the project?
