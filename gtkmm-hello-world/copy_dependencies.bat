@@ -22,7 +22,7 @@ IF NOT [%MSYS2_ENV_FOLDER%]==[] (
 
 	XCOPY /E /D /Y /I /Q "%MSYS2_ENV_FOLDER%\share\icons" "%~dp0%CONFIG%\share\icons"
 	
-    ECHO Copying and compiling schemas... 
+    	ECHO Copying and compiling schemas... 
 
 	XCOPY /E /D /Y /I /Q "%MSYS2_ENV_FOLDER%\share\glib-2.0\schemas" "%~dp0%CONFIG%\share\glib-2.0\schemas"
 	START /WAIT glib-compile-schemas.exe "%~dp0%CONFIG%\share\glib-2.0\schemas"
