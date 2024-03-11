@@ -28,6 +28,6 @@ Or just install:
 
 1. C/C++ Extension Pack [link](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)
 ## Project ##
-1. Download this repository, open the directory in VSCode and try to build.
+Download this repository, open the directory in VSCode and try to build.
 ## Notes ##
 The `copy_dependencies.bat` copies everything necessary for the offline working of the application without MSYS2 (it may need to be improved). To call the help, run `.bat` without parameters.
